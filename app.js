@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3030;
 data = require('./data.json');
+creativity = require('./creativity.json')
 var cors = require('cors');
 
 function RandomNumber(){
@@ -18,7 +19,8 @@ app.get('/v1/icons/search/all', (req, res) => {
 })
 
 app.get('/v1/icons/random', (req, res) => {
-    res.send(data[RandomNumber()])
+    toDraw = data[RandomNumber()].value + " " + creativity[0];
+    res.send(toDraw)
 })
 
 app.get('/v1/icons/search/:search', (req, res) => {
