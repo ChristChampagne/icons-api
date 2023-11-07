@@ -5,10 +5,17 @@ data = require('./data.json');
 creativity = require('./creativity.json')
 var cors = require('cors');
 
-function RandomNumber(arr){
-    result = Math.floor(Math.random() * Object.keys(arr).length)
-    return result == 0 ? RandomNumber(): result;
+function RandomIconNumber(arr){
+    result = Math.floor(Math.random() * Object.keys(data).length)
+    return result == 0 ? RandomIconNumber(): result;
 }
+
+function RandomCreativNumber(arr){
+    result = Math.floor(Math.random() * Object.keys(creativity).length)
+    return result == 0 ? RandomCreativNumber(): result;
+}
+
+
 app.use(cors({
     origin: '*',
     allowedHeaders: 'Authorization, X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Allow-Request-Method',
@@ -19,12 +26,11 @@ app.get('/v1/icons/search/all', (req, res) => {
 })
 
 app.get('/v1/icons/random', (req, res) => {
-    res.send(data[RandomNumber(data)]);
+    res.send(data[RandomIconNumber()]);
 })
 
 app.get('/v1/creativity/random',(req,res)=>{
-    console.log(creativity[RandomNumber(creativity)]);
-    res.send(creativity[RandomNumber(creativity)])
+    res.send(creativity[RandomCreativNumber()])
 })
 
 app.get('/v1/icons/search/:search', (req, res) => {
