@@ -5,8 +5,8 @@ data = require('./data.json');
 creativity = require('./creativity.json')
 var cors = require('cors');
 
-function RandomNumber(){
-    result = Math.floor(Math.random() * Object.keys(data).length)
+function RandomNumber(arr){
+    result = Math.floor(Math.random() * Object.keys(arr).length)
     return result == 0 ? RandomNumber(): result;
 }
 app.use(cors({
@@ -19,7 +19,12 @@ app.get('/v1/icons/search/all', (req, res) => {
 })
 
 app.get('/v1/icons/random', (req, res) => {
-    res.send(data[RandomNumber()]);
+    res.send(data[RandomNumber(data)]);
+})
+
+app.get('/v1/creativity/random',(req,res)=>{
+    console.log(creativity[RandomNumber(creativity)]);
+    res.send(creativity[RandomNumber(creativity)])
 })
 
 app.get('/v1/icons/search/:search', (req, res) => {
