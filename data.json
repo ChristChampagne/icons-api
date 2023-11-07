@@ -1,26 +1,22 @@
 {
-    "1":{
-        "name":"ladder",
-        "icon":"http://localhost/proyectosPersonales/icons-api/icons/ladder.svg"
+    "1": {
+        "name": "ladder",
+        "icon": "http://localhost/proyectosPersonales/icons-api/icons/ladder.svg"
     },
-    "2":{
-        "name":"parachute",
-        "icon":"http://localhost/proyectosPersonales/icons-api/icons/parachute.svg"
+    "2": {
+        "name": "parachute",
+        "icon": "http://localhost/proyectosPersonales/icons-api/icons/parachute.svg"
     },
-    "3":{
-        "name":"car",
-        "icon":"http://localhost/proyectosPersonales/icons-api/icons/car.svg"
+    "3": {
+        "name": "car",
+        "icon": "http://localhost/proyectosPersonales/icons-api/icons/car.svg"
     },
-    "4":{
-        "name":"dinosaur",
-        "icon":"http://localhost/proyectosPersonales/icons-api/icons/dinosaur.svg"
+    "4": {
+        "name": "dinosaur",
+        "icon": "http://localhost/proyectosPersonales/icons-api/icons/dinosaur.svg"
     },
-    "5":{
-        "name":"star",
-        "icon":"http://localhost/proyectosPersonales/icons-api/icons/star.svg"
-    },
-    "6":{
-        "name":"candle",
-        "icon":"http://localhost/proyectosPersonales/icons-api/icons/candle.svg"
+    "5": {
+        "name": "star",
+        "icon": "http://localhost/proyectosPersonales/icons-api/icons/star.svg"
     }
 }
