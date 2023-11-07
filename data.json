@@ -18,5 +18,30 @@
     "5": {
         "name": "star",
         "icon": "http://localhost/proyectosPersonales/icons-api/icons/star.svg"
+    },
+    "6": {
+        "name": "computer",
+        "icon": "http://localhost/proyectosPersonales/icons-api/icons/star.svg"
+    },
+    "7": {
+        "name": "Galaxy",
+        "icon": "http://localhost/proyectosPersonales/icons-api/icons/star.svg"
+    },
+    "8": {
+        "name": "Cellphone",
+        "icon": "http://localhost/proyectosPersonales/icons-api/icons/star.svg"
+    },
+    "9": {
+        "name": "TV",
+        "icon": "http://localhost/proyectosPersonales/icons-api/icons/star.svg"
+    },
+    "10": {
+        "name": "Keyboard",
+        "icon": "http://localhost/proyectosPersonales/icons-api/icons/star.svg"
+    },
+    "11": {
+        "name": "star",
+        "icon": "http://localhost/proyectosPersonales/icons-api/icons/star.svg"
     }
+
 }

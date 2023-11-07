@@ -19,8 +19,7 @@ app.get('/v1/icons/search/all', (req, res) => {
 })
 
 app.get('/v1/icons/random', (req, res) => {
-    toDraw = data[RandomNumber()].value + " " + creativity[0];
-    res.send(toDraw)
+    res.send(data[RandomNumber()]);
 })
 
 app.get('/v1/icons/search/:search', (req, res) => {
