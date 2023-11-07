@@ -21,27 +21,27 @@
     },
     "6": {
         "name": "computer",
-        "icon": "http://localhost/proyectosPersonales/icons-api/icons/star.svg"
+        "icon": "http://localhost/proyectosPersonales/icons-api/icons/computer.svg"
     },
     "7": {
-        "name": "Galaxy",
-        "icon": "http://localhost/proyectosPersonales/icons-api/icons/star.svg"
+        "name": "galaxy",
+        "icon": "http://localhost/proyectosPersonales/icons-api/icons/galaxy.svg"
     },
     "8": {
-        "name": "Cellphone",
-        "icon": "http://localhost/proyectosPersonales/icons-api/icons/star.svg"
+        "name": "cellphone",
+        "icon": "http://localhost/proyectosPersonales/icons-api/icons/cellphone.svg"
     },
     "9": {
-        "name": "TV",
-        "icon": "http://localhost/proyectosPersonales/icons-api/icons/star.svg"
+        "name": "tv",
+        "icon": "http://localhost/proyectosPersonales/icons-api/icons/tv.svg"
     },
     "10": {
-        "name": "Keyboard",
-        "icon": "http://localhost/proyectosPersonales/icons-api/icons/star.svg"
+        "name": "keyboard",
+        "icon": "http://localhost/proyectosPersonales/icons-api/icons/keyboard.svg"
     },
     "11": {
-        "name": "star",
-        "icon": "http://localhost/proyectosPersonales/icons-api/icons/star.svg"
+        "name": "cup",
+        "icon": "http://localhost/proyectosPersonales/icons-api/icons/cup.svg"
     }
 
 }
